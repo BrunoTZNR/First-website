@@ -1,0 +1,59 @@
+body {
+    background-image: url("../img/cosmos.png");
+    background-repeat: repeat;
+    font-family: 'roboto';
+    color: white;
+}
+main {
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.logo, .manchete, .headline{
+    margin: 0;
+    text-align: center;
+}
+.video {
+    margin: 0;
+    text-align: center;
+}
+article {
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(238, 200, 230);
+}
+.bruno {
+    margin: 30px;
+    text-align: center;
+    width: 100%;
+}
+.bruno table{
+    background: rgba(117, 6, 151,0.6);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: white;
+    color: pink;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+}
+#menu ul li a:hover{
+    background-color: gray;
+    color: #6d6d6d;
+    border-bottom: 3px solid rgb(128, 81, 125);
+}
